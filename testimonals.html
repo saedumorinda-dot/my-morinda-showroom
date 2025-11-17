@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonials - Avon Electric Showroom Morinda</title>
+ <link rel="stylesheet" href="css/main.css">
+  <style>
+    /* Reset */
+  
+    
+
+    /* Hero Banner */
+    .hero {
+      background: #7c3848 url('https://images.unsplash.com/photo-1610639001007-d2b1a59c00b2?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+      color: #fff;
+      padding: 120px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    }
+    .hero p {
+      font-size: 20px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    }
+
+    /* Testimonials Section */
+    .testimonials-section {
+      padding: 80px 20px;
+      background: #f3e6e8;
+      text-align: center;
+    }
+    .testimonials-section h2 {
+      color: #7c3848;
+      font-size: 32px;
+      margin-bottom: 50px;
+    }
+    .testimonial-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .testimonial-card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 30px 20px;
+      max-width: 300px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .testimonial-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(124, 56, 72, 0.3);
+    }
+    .testimonial-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #7c3848;
+    }
+    .testimonial-text {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+    .testimonial-card h3 {
+      color: #7c3848;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    .testimonial-card span {
+      font-size: 14px;
+      color: #777;
+    }
+
+  
+    /* Responsive */
+    @media (max-width: 992px) {
+      .testimonial-cards { gap: 20px; }
+    }
+    @media (max-width: 768px) {
+      .testimonial-cards { flex-direction: column; align-items: center; }
+      .hero h1 { font-size: 36px; }
+      .hero p { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <a href="index.html" class="logo">
+      <img src="./img/download.png" alt="Avon Logo">
+      Avon Electric Morinda
+    </a>
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <i class="bi bi-buildings"></i>
+        <!-- <h1 class="sitename"><img src="./img/download.png" alt="logo1-png" width="auto"> </h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="sa.html" class="active">Home</a></li>
+          <li><a href="about.html">Scooter</a></li>
+          <li><a href="e-rikshaw.html">E-Rickshaw</a></li>
+          <li><a href="event.html">Events</a></li>
+          <li><a href="testimonals.html">Testimonial</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        
+
+
+        
+
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+  <!-- Hero Banner -->
+
+    
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-cards">
+
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rohit" class="testimonial-img">
+        <p class="testimonial-text">"Avon E-Star DX scooter is amazing! Smooth ride and great battery life."</p>
+        <h3>Rohit S.</h3>
+        <span>Morinda, Punjab</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Simran" class="testimonial-img">
+        <p class="testimonial-text">"The staff was very helpful. I got my E-Rickshaw financed easily!"</p>
+        <h3>Simran K.</h3>
+        <span>Morinda, Punjab</span>
+      </div>
+
+     <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Harpreet" class="testimonial-img">
+        <p class="testimonial-text">"Excellent customer service and the best prices in town."</p>
+        <h3>Harpreet R.</h3>
+        <span>Morinda, Punjab</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Amandeep" class="testimonial-img">
+        <p class="testimonial-text">"Highly recommend Avon Electric Showroom. My E-Star scooter is flawless!"</p>
+        <h3>Amandeep S.</h3>
+        <span>Morinda, Punjab</span>
+      </div> 
+
+    </div>
+  </section>
+
+ 
+</body>
+</html>
